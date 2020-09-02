@@ -2,7 +2,7 @@
   position: relative;
   display: block;
   width: 800px;
-  height: 350px;
+  height: 300px;
   margin: 80px auto;
   overflow: hidden;
   border-radius: 10px;
@@ -61,7 +61,7 @@
 }
 
 .movie__desc {
-  padding-top: 40px;
+  padding-top: 60px;
   padding-left: 25px;
   height: 50%;
   width: 50%;
@@ -81,4 +81,8 @@
   border-radius: 11px;
   background-position: -100% 10% !important;
   opacity: 0.5;
+}
+
+.link {
+  text-decoration: none;
 }

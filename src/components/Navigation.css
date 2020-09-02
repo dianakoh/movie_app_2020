@@ -1,0 +1,11 @@
+.navigation__container {
+  background-color: #354153;
+  display: flex;
+  padding: 15px;
+}
+
+.navigation__container .link {
+  text-decoration: none;
+  color: white;
+  margin: 0px 30px 0px 0px;
+}
