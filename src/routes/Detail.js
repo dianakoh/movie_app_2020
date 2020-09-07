@@ -16,14 +16,15 @@ function Detail({ location, history }) {
               src={location.state.back}
               alt={location.state.title}
               title={location.state.title}
+              className="poster_img"
             />
           </div>
           <div className="detail__desc">
             <h1 className="'title">{location.state.title}</h1>
             <h4 className="yearAndGenres">
               {location.state.year} •{" "}
-              {location.state.genres.map((genre) => (
-                <span>{genre} / </span>
+              {location.state.genres.map((genre, index) => (
+                <span key={index}>{genre} / </span>
               ))}
             </h4>
             <p className="summary">{location.state.summary}</p>

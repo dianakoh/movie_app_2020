@@ -23,8 +23,12 @@
   position: absolute;
   top: 0;
   z-index: 1;
-  height: 94.8vh;
+  height: 100%;
   width: 100%;
   right: 0;
   opacity: 0.3;
+}
+
+.poster_img {
+  height: 90%;
 }
